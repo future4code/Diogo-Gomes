@@ -1,0 +1,47 @@
+*{ /*Reset*/
+    margin: 0;
+    padding: 0;
+}
+/* TOPO */
+#topo{
+   padding: 20px;
+   background-color: rgb(72, 75, 75); 
+}
+
+/* MENU */
+#menu{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(30, 70, 70);
+    
+}
+#menu a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    border-right: 0.2rem solid;
+    padding: 10px;
+}
+
+/* CONTEÚDO */
+#conteudo{
+    padding: 20px;
+    background-color: rgb(86, 197, 197);
+}
+
+/* RODAPE */
+#rodape{
+    padding: 20px;
+    background-color: rgb(72, 75, 75);
+    text-align: center;
+}
+#rodape img{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+#rodape p{
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+}
