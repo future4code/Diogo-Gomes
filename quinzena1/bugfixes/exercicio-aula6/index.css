@@ -53,6 +53,7 @@ div img {
 .container {
     height: 500px;
     text-align: center;
+    
 }
 
 .icone {
@@ -77,6 +78,7 @@ div img {
 
 #container-para-comprar {
     background-color: #e7eb90;
+    align-items: center;
 }
 
 #container-para-comprar>p {
