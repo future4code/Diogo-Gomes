@@ -60,6 +60,7 @@ div img {
     height: 500px;
     text-align: center;
     
+    
 }
 
 .icone {
@@ -73,6 +74,7 @@ div img {
   *  ESTILOS HOME 
   *
   **/
+
 
 #container-de-descricao {
     background-color: #2274a5;
@@ -93,6 +95,7 @@ div img {
     padding: 100px 0;
     font-size: 60px;
 }
+
 
 
 /**
