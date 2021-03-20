@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>E-Shop Avante - Controle de Vendas</title>
+</head>
+<body>
+    <!-- TOPO -->
+    <div id="topo">
+        <img id="imgLogo" src="/img/logo.png" />
+        <img id="imgAtendimento"src="/img/BtmCentroAtendimento.png" />
+        <img id="imgLigamos" src="/img/BtmLigamosVc.png" />
+        <img id="imgEmail" src="/img/BtmAtendimentoEmail.png" />
+    </div>
+<!-- MENU -->
+    <div id="menu">
+        <a href="/index.html">Página Inicial</a>
+        <a href="/ctrl-estoque.html">Controle de Estoque</a>
+        <a href="/add-produto.html">Adicionar Produto</a>
+        <a href="/funcionarios.html">Funcionários</a>
+    </div>
+
+    <!-- ADICIONAR INFORMAÇOES SOBRE SUA LOJINHA -->
+    <div id="conteudo">
+        <h1>CONTROLE DE VENDAS</h1>
+      
+        <br action="" method="post">
+         <fieldset>  
+            <legend>Dados Pessoais</legend>
+                <table cellspacing="10">
+                    <tr>
+                        <td>
+                            <label for="nome">Nome: </label>
+                        </td>
+                        <td align="left">
+                            <input type="text" name="email">
+                        </td>
+                        <td>
+                            <label for="sobrenome">Sobrenome: </label>
+                        </td>
+                        <td align="left">
+                            <input type="text" name="sobrenome">
+                        </td>
+                        <td>
+                            <label for="nascimento">Nascimento: </label>
+                        </td>
+                        <td align="left">
+                            <input type="date" name="nascimento">
+                        </td>
+                        <td>
+                            <label for="rg">RG: </label>
+                        </td>
+                        <td align="left">
+                            <input type="text" name="rg" size="13" maxlength="13"> 
+                        </td>
+                        <td>
+                            <label>CPF:</label>
+                        </td>
+                        <td align="left">
+                            <input type="text" name="cpf" size="9" maxlength="9"> - <input type="text" name="cpf2" size="2" maxlength="2">
+                        </td>
+                        <td>
+                            <label>LOCALIZAR:</label>
+                        </td>
+                        <td align="left">
+                            <img src="./img/ImgLocalizar.png" alt="">
+                        </td>
+                    </tr>    
+                </table>
+         </fieldset>
+        </br>
+
+         <fieldset>
+            <legend>Lista de Produtos</legend>
+                <table cellspacing="10">
+                    <tr>
+                       
+                        <td>
+                            <label for="estado">Produtos:</label>
+                        </td>
+                        <td align="left">
+                            <select id="select" name="Produtos"> 
+                                <option value="mouse">Mouse</option> 
+                                <option value="Teclado">Teclado</option> 
+                                <option value="Cartão">Cartão de memória</option> 
+                                <option value="Pendrive">Pendrive</option> 
+                                <option value="break">No break</option> 
+                                <option value="Monitor">Monitor</option> 
+                            </select>
+                        </td>
+                        <td>
+                            <label for="rg">QTD: </label>
+                        </td>
+                        <td align="left">
+                            <input type="text" name="rg" size="13" maxlength="13"> 
+                        </td>
+                       
+                        <td>
+                            <label>ADICIONAR:</label>
+                        </td>
+                        <td align="left">
+                            <img src="./img/list-add.png" alt="">
+                        </td>
+                    </tr>    
+                </table>
+        </fieldset>
+        </br>
+
+        <fieldset>
+            <legend>Relação de Produtos do Cliente</legend>
+            <table width="1180" border="0">
+                <tr>
+                <td name="Imagem" width="115" bgcolor="#BBCBDE">Imagem</td>
+                <td width="300" bgcolor="#BBCBDE">Descrição</td>
+                <td width="100" bgcolor="#BBCBDE">Modelo</td>
+                <td width="80" bgcolor="#BBCBDE">Garantia</td>
+                <td width="80" bgcolor="#BBCBDE">Valor</td>
+                <td width="100" bgcolor="#BBCBDE">Forma de Pagamento</td>
+                <td colspan="2" bgcolor="#BBCBDE">GERÊNCIAR</td>
+                </tr>
+                <tr>
+                  <td name="Imagem" ><img src="/img/mouse.jfif" width="121" height="90" border="0" /></td>
+                  <td bgcolor="#D3DBE3">Mouse sem fio Multilaser MO277 preto</td>
+                  <td bgcolor="#D3DBE3">USB</td>
+                  <td bgcolor="#D3DBE3">1 Ano</td>
+                  <td bgcolor="#D3DBE3">R$51,30</td>
+                  <td bgcolor="#D3DBE3">Dinheiro</td>
+                  <td width="25" bgcolor="#D3DBE3"><a href=""><img src="img/imgExcluir.png" alt="Excluir" width="32" height="32" /></a></td>
+                  <td width="28" bgcolor="#D3DBE3"><a href=""><img src="img/imgAltear.png" alt="Alterar" width="32" height="32" /></a></td>
+                </tr>
+            </table>
+        </fieldset>
+
+
+        </form> 
+        
+    </div>
+
+
+    <!-- RODAPÉ -->
+    <div id="rodape">
+        <p>Siga-nos nas redes sociais!</p>
+        <div id="imgSocial">
+            <img id="imgFacebook" src="https://image.flaticon.com/icons/png/512/25/25305.png"/>
+            <img id="imgInsta" src="https://image.flaticon.com/icons/png/512/25/25425.png"/>
+            <img id="imgTw" src="https://image.flaticon.com/icons/png/512/8/8800.png"/>
+        </div>
+    </div>
+</body>
+</html>

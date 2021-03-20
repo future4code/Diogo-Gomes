@@ -1,18 +1,47 @@
 *{ /*Reset*/
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family:'Oswald', sans-serif;
+    
 }
 /* TOPO */
 #topo{
    padding: 20px;
-   background-color: rgb(72, 75, 75); 
+   background-color:white;
 }
+
+#imgLogo{
+    width: 200px; 
+    height: 100px;
+}
+
+#imgAtendimento{
+   position:absolute;
+   left: 800px;
+   top: 50px;
+}
+
+
+#imgLigamos{
+    position:absolute;
+    left: 670px;
+    top: 50px;
+ }
+
+ 
+#imgEmail{
+    position:absolute;
+    left: 950px;
+    top: 50px;
+ }
+
 
 /* MENU */
 #menu{
     text-align: center;
     padding: 20px;
-    background-color: rgb(30, 70, 70);
+    background-color: #1F4B88;
     
 }
 #menu a{
@@ -26,18 +55,24 @@
 /* CONTEÚDO */
 #conteudo{
     padding: 20px;
-    background-color: rgb(86, 197, 197);
+    background-color: white;
+}
+
+#select{
+  
+    width: 500px;
+   
 }
 
 /* RODAPE */
 #rodape{
-    padding: 20px;
-    background-color: rgb(72, 75, 75);
+    padding: 5px;
+    background-color: #1F4B88;
     text-align: center;
 }
 #rodape img{
-    width: 20px;
-    height: 20px;
+    width: 35px;
+    height: 35px;
     padding: 5px;
 }
 #rodape p{
