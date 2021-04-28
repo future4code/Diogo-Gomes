@@ -1,0 +1,34 @@
+h4 {
+  text-align: right;
+  padding: 20px;
+  color:black; 
+}
+
+.lista {
+  display: grid;
+  place-items: center;
+  grid-template-columns:  1fr  1fr  1fr 1fr;
+  padding: 5px;
+  margin: 5px;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  
+}
+.videos { 
+  display: grid;
+  text-align: center;
+  height: 160px;
+  align-items: flex-end;
+}
+
+p{
+  text-align: center;
+  padding: 5px;
+  color:black;
+  width: 280px;
+  font-size: 12px;  
+}
+
+a{
+  text-decoration: none;
+}
