@@ -12,11 +12,11 @@ import './styles/globalStyles.css'
 import Header from './components/Header/index'
 import Footer from './components/Footer/index'
 
+import App from './App';
+
 
 //Importar Paginas
 
-
-import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
