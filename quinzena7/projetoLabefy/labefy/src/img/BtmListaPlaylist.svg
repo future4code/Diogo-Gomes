@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="197" height="71" viewBox="0 0 197 71">
+  <g id="BtmListaPlaylist" transform="translate(-1384 250)">
+    <g id="Grupo_5" data-name="Grupo 5" transform="translate(-40.664 -559)">
+      <rect id="Retângulo_4" data-name="Retângulo 4" width="197" height="71" rx="10" transform="translate(1424.664 309)" fill="#040404"/>
+      <text id="Lista_de_Playlist" data-name="Lista 
+de Playlist" transform="translate(1498.664 339)" fill="#fffbfb" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Lista </tspan><tspan x="0" y="24">de Playlist</tspan></text>
+    </g>
+    <g id="Grupo_6" data-name="Grupo 6" transform="translate(327 24)">
+      <g id="Grupo_7" data-name="Grupo 7" transform="translate(0 6)">
+        <g id="cancel-text_icon-icons.com_71506" transform="translate(1070 -265.868)">
+          <g id="Grupo_6-2" data-name="Grupo 6">
+            <path id="Caminho_14" data-name="Caminho 14" d="M41.469,19.9V0H0V41.469H19.9A15.549,15.549,0,1,0,41.469,19.9ZM19.9,24.19a15.468,15.468,0,0,0-1.717,3.456H6.911V31.1H17.379a15.835,15.835,0,0,0-.1,1.728,15.459,15.459,0,0,0,.9,5.184H3.456V3.456H38.013V18.182a15.458,15.458,0,0,0-14.949,2.552H6.911V24.19Zm12.93,20.532A11.894,11.894,0,1,1,44.722,32.829,11.919,11.919,0,0,1,32.829,44.722Z" fill="#f8f6f9"/>
+            <path id="Caminho_15" data-name="Caminho 15" d="M32.084,8H4v3.879H32.084Z" transform="translate(2.823 4.85)" fill="#f8f6f9"/>
+          </g>
+        </g>
+        <g id="musical-note-beam_icon-icons.com_71424" transform="translate(1094.424 -241.678)">
+          <path id="Caminho_17" data-name="Caminho 17" d="M6.548,0V9.294a3.408,3.408,0,1,0,2.274,3.212v-9.1l6.821,1.137v7.02a3.408,3.408,0,1,0,2.274,3.212V2.274Z" transform="translate(-2)" fill="#fe7e01"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

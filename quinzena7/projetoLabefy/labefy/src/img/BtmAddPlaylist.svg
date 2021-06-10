@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="197" height="71" viewBox="0 0 197 71">
+  <g id="BtmAddPlaylist" transform="translate(-1424.664 -309)">
+    <rect id="Retângulo_4" data-name="Retângulo 4" width="197" height="71" rx="10" transform="translate(1424.664 309)" fill="#040404"/>
+    <g id="add-song_icon-icons.com_71528" transform="translate(1436.834 320.31)">
+      <g id="Grupo_3" data-name="Grupo 3">
+        <path id="Caminho_12" data-name="Caminho 12" d="M42.333,23.462V6.048L12.1,0V24.719a9.065,9.065,0,1,0,6.048,8.542V9.071L36.285,12.1v9.161a13.6,13.6,0,1,0,6.048,2.206ZM34.774,45.18A10.408,10.408,0,1,1,45.18,34.774,10.429,10.429,0,0,1,34.774,45.18Z" fill="#f8f6f9"/>
+        <path id="Caminho_13" data-name="Caminho 13" d="M27.074,24.048V18H24.048v6.048H18v3.024h6.048v6.048h3.027V27.071h6.045V24.048Z" transform="translate(9.214 9.214)" fill="#14c208"/>
+      </g>
+    </g>
+    <text id="Cadastrar_Nova_Playlist" data-name="Cadastrar 
+Nova Playlist" transform="translate(1498.664 339)" fill="#fffbfb" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Cadastrar </tspan><tspan x="0" y="24">Nova Playlist</tspan></text>
+  </g>
+</svg>
